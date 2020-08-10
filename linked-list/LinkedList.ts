@@ -1,11 +1,8 @@
+import Node from '../node/Node.ts';
 
-export class LinkedNode<T> {
-  public value: T;
-  public next: LinkedNode<T> | null;
-
+export class LinkedNode<T> extends Node<T> {
   constructor(value: T, next: LinkedNode<T> | null = null) {
-    this.value = value;
-    this.next = next;
+    super(value, next);
   }
 }
 

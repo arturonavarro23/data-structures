@@ -1,4 +1,4 @@
-import LinkedList, { LinkedNode } from './LinkedList.ts';
+import LinkedList from './LinkedList.ts';
 
 type Car = {
   brand: string;
